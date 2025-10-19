@@ -22,9 +22,9 @@ Desde consola:
 bash
 Copiar código
 dotnet run --project MediSchedule_Prototipo.csproj
-⚠️ La base de datos medischedule.db es esencial. No eliminar ni mover el archivo.
 
 🗂 Estructura del proyecto
+
 Carpeta / Archivo	Descripción
 /Data	DbContext y migraciones de SQLite
 /Models	Clases de dominio (Usuario, Cita, Rol, etc.)
