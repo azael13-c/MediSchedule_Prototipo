@@ -1,4 +1,4 @@
-# MediSchedule_Prototipo
+# MediSchedule Prototipo
 
 Prototipo en C# de **gestión de citas médicas** con **flujo multirol** en consola.  
 Diseñado como proyecto académico para demostración de funcionalidades de un sistema de salud.
