@@ -29,6 +29,7 @@ Desde consola:
 dotnet run --project MediSchedule_Prototipo.csproj
 ```
 🗂 Estructura del proyecto
+
 Carpeta / Archivo,Descripción
 /Data,DbContext y migraciones de SQLite
 /Models,"Clases de dominio (Usuario, Cita, Rol, etc.)"
