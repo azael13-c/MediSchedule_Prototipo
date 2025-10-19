@@ -1,7 +1,6 @@
 # MediSchedule Prototipo
 
 Prototipo en C# de **gestión de citas médicas** con **flujo multirol** en consola.  
-Diseñado como proyecto académico para demostración de funcionalidades de un sistema de salud.
 
 ---
 
@@ -10,17 +9,18 @@ Diseñado como proyecto académico para demostración de funcionalidades de un s
 1. **Clonar el repositorio:**
 ```bash
 git clone https://github.com/azael13-c/MediSchedule_Prototipo.git
+
 cd MediSchedule_Prototipo
 O descargar directamente el ZIP desde GitHub.
 
 Ejecutar el proyecto:
 
-Desde Visual Studio: Abrir MediSchedule_Prototipo.sln y presionar F5 o Run.
+Desde Visual Studio: Abrir MediSchedule_Prototipo.sln y ejecutar( F5 o Run).
 
 Desde consola:
 
 bash
-Copiar código
+
 dotnet run --project MediSchedule_Prototipo.csproj
 
 🗂 Estructura del proyecto
