@@ -15,7 +15,7 @@ Prototipo en C# de **gestión de citas médicas** con **flujo multirol** en cons
 1. **Clonar el repositorio:**
    ```bash
    git clone https://github.com/azael13-c/MediSchedule_Prototipo.git
-   
+
    cd MediSchedule_Prototipo
    
    O puedes descargar el ZIP desde GitHub
@@ -23,6 +23,7 @@ Prototipo en C# de **gestión de citas médicas** con **flujo multirol** en cons
 
 Desde Visual Studio: Abre MediSchedule_Prototipo.sln y presiona F5 (Run).
 Desde consola: 
+
 dotnet run --project MediSchedule_Prototipo.csproj
 
 🗂 Estructura del proyecto
