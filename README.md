@@ -23,6 +23,7 @@ O puedes descargar el ZIP desde GitHub
 Ejecutar el proyecto:
 
 Desde Visual Studio: Abre MediSchedule_Prototipo.sln y presiona F5 (Run).
+
 Desde consola:
 ```
 dotnet run --project MediSchedule_Prototipo.csproj
