@@ -28,7 +28,7 @@ Desde consola:
 ```
 dotnet run --project MediSchedule_Prototipo.csproj
 ```
-🗂 Estructura del proyecto
+## 🗂 Estructura del proyecto
 
 /Data	/DbContext y migraciones de SQLite
 
@@ -44,13 +44,13 @@ Program.cs	/Punto de entrada de la aplicación
 
 medischedule.db	/Base de datos SQLite con datos de prueba (fundamental)
 
-⚙️ Funcionamiento general
+## ⚙️ Funcionamiento general
 
 Se crea un SuperAdmin automáticamente (ID: 1, Contraseña: 1234)/ es el inicio del sistema
 
 Cada usuario accede a un menú según su rol (SuperAdmin, Admin, Personal Médico, Paciente).
 
-⚠️ Notas importantes
+## ⚠️ Notas importantes
 
 La base de datos medischedule.db debe estar en la raíz del proyecto.
 
