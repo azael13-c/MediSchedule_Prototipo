@@ -30,25 +30,32 @@ dotnet run --project MediSchedule_Prototipo.csproj
 ```
 🗂 Estructura del proyecto
 
-/Data	DbContext y migraciones de SQLite
+/Data	/DbContext y migraciones de SQLite
 
-/Models	Clases de dominio (Usuario, Cita, Rol, etc.)
+/Models	/Clases de dominio (Usuario, Cita, Rol, etc.)
 
-/Menus	Menús por rol: SuperAdmin, Admin, Personal Médico, Paciente
+/Menus	/Menús por rol: SuperAdmin, Admin, Personal Médico, Paciente
 
-/Services	Lógica de negocio y acceso a datos
-/Utils	Funciones auxiliares y logging
-Program.cs	Punto de entrada de la aplicación
-medischedule.db	Base de datos SQLite con datos de prueba (fundamental)
+/Services	/Lógica de negocio y acceso a datos
+
+/Utils	/Funciones auxiliares y logging
+
+Program.cs	/Punto de entrada de la aplicación
+
+medischedule.db	/Base de datos SQLite con datos de prueba (fundamental)
 
 ⚙️ Funcionamiento general
 
-Se crea un SuperAdmin automáticamente (ID: 1, Contraseña: 1234).
+Se crea un SuperAdmin automáticamente (ID: 1, Contraseña: 1234)/ es el inicio del sistema
+
 Cada usuario accede a un menú según su rol (SuperAdmin, Admin, Personal Médico, Paciente).
 
 ⚠️ Notas importantes
 
 La base de datos medischedule.db debe estar en la raíz del proyecto.
+
 Usa las credenciales de SuperAdmin para iniciar.
+
 Si la base de datos no carga, verifica que medischedule.db esté en la raíz.
+
 Los emojis en menús y mensajes son parte de la interfaz de usuario para mejorar la visualización
