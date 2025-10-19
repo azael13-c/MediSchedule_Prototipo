@@ -31,8 +31,11 @@ dotnet run --project MediSchedule_Prototipo.csproj
 🗂 Estructura del proyecto
 
 /Data	DbContext y migraciones de SQLite
+
 /Models	Clases de dominio (Usuario, Cita, Rol, etc.)
+
 /Menus	Menús por rol: SuperAdmin, Admin, Personal Médico, Paciente
+
 /Services	Lógica de negocio y acceso a datos
 /Utils	Funciones auxiliares y logging
 Program.cs	Punto de entrada de la aplicación
