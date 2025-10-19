@@ -29,15 +29,16 @@ Desde consola:
 dotnet run --project MediSchedule_Prototipo.csproj
 ```
 🗂 Estructura del proyecto
+| Carpeta / Archivo | Descripción                                                 |
+| ----------------- | ----------------------------------------------------------- |
+| `/Data`           | DbContext y migraciones de SQLite                           |
+| `/Models`         | Clases de dominio (Usuario, Cita, Rol, etc.)                |
+| `/Menus`          | Menús por rol: SuperAdmin, Admin, Personal Médico, Paciente |
+| `/Services`       | Lógica de negocio y acceso a datos                          |
+| `/Utils`          | Funciones auxiliares y logging                              |
+| `Program.cs`      | Punto de entrada de la aplicación                           |
+| `medischedule.db` | Base de datos SQLite con datos de prueba (fundamental)      |
 
-Carpeta / Archivo,Descripción
-/Data,DbContext y migraciones de SQLite
-/Models,"Clases de dominio (Usuario, Cita, Rol, etc.)"
-/Menus,"Menús por rol: SuperAdmin, Admin, Personal Médico, Paciente"
-/Services,Lógica de negocio y acceso a datos
-/Utils,Funciones auxiliares y logging
-Program.cs,Punto de entrada de la aplicación
-medischedule.db,Base de datos SQLite con datos de prueba
 ⚙️ Funcionamiento general
 
 Se crea un SuperAdmin automáticamente (ID: 1, Contraseña: 1234).
